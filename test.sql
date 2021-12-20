@@ -1,7 +1,7 @@
 -- See tables
-SELECT * FROM selim_application ORDER BY ID DESC;
-SELECT * FROM selim_application_log ORDER BY log_id DESC ;
-SELECT * FROM selim_application_conf;
+SELECT * FROM selim_application ORDER BY ID DESC; //No usar * usar los camspos
+SELECT * FROM selim_application_log ORDER BY log_id DESC ; //No usar * usar los camspos
+SELECT * FROM selim_application_conf; //No usar * usar los camspos
 
 -- Run procedures to create aritmetic operations and then launch calculator...
 BEGIN
